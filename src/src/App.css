@@ -1,0 +1,56 @@
+.App {
+  background-color: black;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white !important;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+body {
+  color: white !important;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.bigForm {
+  display: table;
+  text-align: left !important;
+}
+
+.carousel.slide {
+  align-content: center;
+  width: 800px;
+  margin-left: 400px;
+}
+
+.ml-auto.navbar-nav {
+  margin-left: inherit !important;
+}
+
+.navbar.navbar-expand-md.navbar-light.bg-light {
+  background-color: black !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.navbar-brand {
+  color: white !important;
+}

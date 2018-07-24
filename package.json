@@ -1,5 +1,5 @@
 {
-  "name": "my-reactstrap",
+  "name": "personal-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,5 +17,17 @@
   "devDependencies": {
     "bootstrap": "^4.1.2",
     "react-bootstrap": "^0.32.1"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanzen7/Personal-Site.git"
+  },
+  "author": "Steven J. Carranza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanzen7/Personal-Site/issues"
+  },
+  "homepage": "https://github.com/sanzen7/Personal-Site#readme"
 }

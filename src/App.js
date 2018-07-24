@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
-import './App.css';
-import Navigator from './components/HeaderNavigation.js';
-import mainBanner from './/assets/space.jpg';
+import { BrowserRouter, Route, Switch  } from 'react-router-dom';
+import Home from './components/Home';
+import {About} from './components/About';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1>Steven J. Carranza</h1>
-        <Navigator />
-        <img className="bannerPhoto" src={mainBanner} alt="space main"/>
-      </div>
+      <BrowserRouter>
+        <div>
+            <Switch>
+              <Route exact path='/' component={Home}/>
+			        <Route path='/about' component={About} />
+            </Switch>
+        </div>
+      </BrowserRouter>
     );
   }
 }

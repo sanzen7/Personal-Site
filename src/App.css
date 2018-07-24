@@ -1,5 +1,6 @@
 .App {
-  background-color: black;
+  background-image: url("./assets/space.jpg");
+  height: -webkit-fill-available;
 }
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -7,7 +8,7 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: transparent;
   height: 150px;
   padding: 20px;
   color: white !important;
@@ -19,13 +20,6 @@
 
 .App-intro {
   font-size: large;
-}
-body {
-  color: white !important;
-}
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
 
 .bigForm {
@@ -39,6 +33,19 @@ body {
   margin-left: 400px;
 }
 
+h1 {
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
 .ml-auto.navbar-nav {
   margin-left: inherit !important;
+}
+
+.navbar.navbar-expand-md.navbar-light.bg-light {
+  background-color: transparent !important;
 }
